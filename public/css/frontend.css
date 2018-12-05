@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);/*!
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,900);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10003,7 +10003,109 @@ a.text-dark:focus {
   max-height: 90px;
 }
 
-.navbar {
-  background: red !important;
+body {
+  background-color: #f1f4fa;
+}
+
+.fqcards {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #f1f4fa;
+}
+
+.fqcards .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, 0.1);
+          box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.fqcards .wrap:hover {
+  background: linear-gradient(135deg, #6394ff 0%, #0a193b 100%);
+  color: white;
+}
+
+.fqcards .wrap:hover .mbr-iconfont {
+  color: #f1f4fa;
+}
+
+.fqcards .wrap:hover .display-5 {
+  color: #fff;
+}
+
+.fqcards .ico-wrap {
+  margin: auto;
+}
+
+.fqcards .mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #277aaf;
+  margin: 1rem;
+  padding-right: 1rem;
+}
+
+.fqcards .mbr-section-title3 {
+  text-align: left;
+}
+
+.fqcards h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fqcards .display-5 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1.4rem;
+  color: #d0bb57;
+}
+
+.fqcards .mbr-bold {
+  font-weight: 700;
+}
+
+.fqcards p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+}
+
+.fqcards .display-6 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1re;
+}
+
+.header-logo {
+  font-size: 4.5em;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  text-shadow: 3px 3px 0px #fff, 5px 5px 0px #eee;
+  text-decoration: none !important;
+  width: 100%;
+  text-align: center;
+}
+
+.vcenter {
+  margin: auto;
+}
+
+.description {
+  color: #333;
+  font-size: 1.6em;
+  margin: auto;
+  text-align: center;
+  padding: 10px 60px;
+}
+
+.first-logo {
+  color: #277aaf;
+}
+
+.second-logo {
+  color: #d0bb57;
 }
 

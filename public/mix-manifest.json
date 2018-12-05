@@ -1,12 +1,8 @@
 {
-    "/js/vendor.js": "/js/vendor.js",
-    "/js/frontend.js": "/js/frontend.js",
-    "/css/frontend.css": "/css/frontend.css",
-    "/css/backend.css": "/css/backend.css",
-    "/js/backend.js": "/js/backend.js",
-    "/js/manifest.js": "/js/manifest.js",
-    "/1.0d06af18dbdff7adfea7.hot-update.js": "/1.0d06af18dbdff7adfea7.hot-update.js",
-    "/1.0277a32c339d75feab8d.hot-update.js": "/1.0277a32c339d75feab8d.hot-update.js",
-    "/1.dcb116b7fa2d870be6f1.hot-update.js": "/1.dcb116b7fa2d870be6f1.hot-update.js",
-    "/1.5b1ef17d2787451a42c1.hot-update.js": "/1.5b1ef17d2787451a42c1.hot-update.js"
+    "/js/vendor.js": "/js/vendor.js?id=d639c8c6e68a6735c1fb",
+    "/js/frontend.js": "/js/frontend.js?id=f1e58fda7fb0d069be67",
+    "/css/frontend.css": "/css/frontend.css?id=beaffb9c23d207d76f16",
+    "/css/backend.css": "/css/backend.css?id=57381f33252abaffb2fd",
+    "/js/backend.js": "/js/backend.js?id=b490f7a80eb740a7061f",
+    "/js/manifest.js": "/js/manifest.js?id=7c0a19fb1a3afbe0a6cb"
 }
