@@ -1,5 +1,106 @@
 // Override the Bootstrap defaults without modifying key, versioned files.
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,900');
 
-.fq-header {
-    background-color: aqua;
+$font-stack:    Helvetica, sans-serif;
+$font-logo:    "M PLUS Rounded 1c", sans-serif;
+$fq-darkgrey: #333;
+$fq-lightgrey: #f1f4fa;
+
+$fq-blue: #277aaf;
+$fq-yellow: #d0bb57;
+body{
+    background-color: $fq-lightgrey;
+}
+.fqcards {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: $fq-lightgrey;
+    .wrap {
+        display: flex;
+        background: white;
+        padding: 1rem 1rem 1rem 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
+    }
+
+    .wrap:hover {
+        background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+        color: white;
+        .mbr-iconfont {
+            color: #f1f4fa;
+        }
+        .display-5 {
+            color: #fff;
+
+        }
+
+    }
+
+    .ico-wrap {
+        margin: auto;
+    }
+
+    .mbr-iconfont {
+        font-size: 4.5rem !important;
+        color: $fq-blue;
+        margin: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    .mbr-section-title3 {
+        text-align: left;
+    }
+    h2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .display-5 {
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 1.4rem;
+        color: $fq-yellow;
+
+    }
+
+    .mbr-bold {
+        font-weight: 700;
+    }
+
+    p {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        line-height: 25px;
+    }
+    .display-6 {
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 1re
+    }
+}
+.header-logo {
+    font-size: 4.5em;
+    font-family: $font-logo;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px #fff, 5px 5px 0px #eee;
+    //text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+
+    text-decoration: none !important;
+    width: 100%;
+    text-align: center;
+}
+.vcenter {
+    margin: auto;
+}
+.description {
+    color: $fq-darkgrey;
+    font-size: 1.6em;
+    margin: auto;
+    text-align: center;
+    padding: 10px 60px;
+}
+.first-logo {
+    color: $fq-blue;
+}
+.second-logo {
+    color: $fq-yellow;
 }
