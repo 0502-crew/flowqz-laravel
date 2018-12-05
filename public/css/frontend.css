@@ -10043,10 +10043,16 @@ body {
 }
 
 .fqcards .mbr-iconfont {
-  font-size: 4.5rem !important;
+  font-size: 3.5rem !important;
   color: #277aaf;
   margin: 1rem;
   padding-right: 1rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .fqcards .mbr-iconfont {
+    font-size: 4.5rem !important;
+  }
 }
 
 .fqcards .mbr-section-title3 {
@@ -10080,13 +10086,19 @@ body {
 }
 
 .header-logo {
-  font-size: 4.5em;
+  font-size: 3.6em;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 900;
   text-shadow: 3px 3px 0px #fff, 5px 5px 0px #eee;
   text-decoration: none !important;
   width: 100%;
   text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  .header-logo {
+    font-size: 4.6em;
+  }
 }
 
 .vcenter {
@@ -10098,7 +10110,13 @@ body {
   font-size: 1.6em;
   margin: auto;
   text-align: center;
-  padding: 10px 60px;
+  padding: 10px 30px;
+}
+
+@media only screen and (min-width: 640px) {
+  .description {
+    padding: 10px 80px;
+  }
 }
 
 .first-logo {

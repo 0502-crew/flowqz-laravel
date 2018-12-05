@@ -42,10 +42,14 @@ body{
     }
 
     .mbr-iconfont {
-        font-size: 4.5rem !important;
+        font-size: 3.5rem !important;
         color: $fq-blue;
         margin: 1rem;
         padding-right: 1rem;
+        @media only screen and (min-width: 640px) {
+            font-size: 4.5rem !important;
+        }
+
     }
 
 
@@ -78,15 +82,17 @@ body{
     }
 }
 .header-logo {
-    font-size: 4.5em;
+    font-size: 3.6em;
     font-family: $font-logo;
     font-weight: 900;
     text-shadow: 3px 3px 0px #fff, 5px 5px 0px #eee;
-    //text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-
     text-decoration: none !important;
     width: 100%;
     text-align: center;
+    @media only screen and (min-width: 640px) {
+        font-size: 4.6em;
+    }
+
 }
 .vcenter {
     margin: auto;
@@ -96,7 +102,11 @@ body{
     font-size: 1.6em;
     margin: auto;
     text-align: center;
-    padding: 10px 60px;
+    padding: 10px 30px;
+    @media only screen and (min-width: 640px) {
+        padding: 10px 80px;
+    }
+
 }
 .first-logo {
     color: $fq-blue;
