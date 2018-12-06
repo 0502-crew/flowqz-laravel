@@ -14,8 +14,14 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 mix.setPublicPath('public');
 
-mix.sass('resources/sass/frontend/app.scss', 'css/frontend.css')
+mix.sourceMaps()
+    .sass('resources/sass/frontend/app.scss', 'css/frontend.css')
     .sass('resources/sass/backend/app.scss', 'css/backend.css')
+    .stylus('resources/styl/custom.styl', 'css/custom.css',{
+        use: [
+          require('rupture')()
+        ]
+      })
     .js('resources/js/frontend/app.js', 'js/frontend.js')
     .js([
         'resources/js/backend/before.js',

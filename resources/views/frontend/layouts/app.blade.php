@@ -19,6 +19,7 @@
         <!-- Check if the language is set to RTL, so apply the RTL layouts -->
         <!-- Otherwise apply the normal LTR layouts -->
         {{ style(mix('css/frontend.css')) }}
+        {{ style(mix('css/custom.css')) }}
 
         @stack('after-styles')
     </head>
@@ -32,6 +33,9 @@
                 @yield('content')
             </div><!-- container -->
         </div><!-- #app -->
+        <section class="footer">
+            <div class="footer-container">&copy; @php echo date("Y");@endphp FlowQuiz</div>
+            </section>
 
         <!-- Scripts -->
         @stack('before-scripts')

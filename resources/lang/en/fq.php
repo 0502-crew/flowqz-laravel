@@ -2,6 +2,8 @@
 
 return [
     'description' => 'FlowQuiz redefines online quizzes making the process stupidly quick and simple while creating spectacular results.',
+    'mostpopular' => 'Most popular quizzes',
+    'questions' => 'questions',
     'cards' => [
         'find'   => 'Find Popular Quizzes',
         'finddesc' => 'Don\'t now where to start? Check the list for the hottest quizzes out there. ',
