@@ -5,8 +5,19 @@
                 @lang('menus.backend.sidebar.general')
             </li>
             <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/quizzes')) }}" href="{!! route('backend.quizzes.index') !!}">
+                    <i class="fa fa-edit nav-icon"></i><span>My Quizzes</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link {{ active_class(Active::checkUriPattern('admin/dashboard')) }}" href="{{ route('admin.dashboard') }}">
                     <i class="nav-icon icon-speedometer"></i> @lang('menus.backend.sidebar.dashboard')
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/dashboard')) }}" href="{{ route('admin.dashboard') }}">
+                    <i class="nav-icon icon-list"></i> @lang('fq.back.create')
                 </a>
             </li>
 

@@ -8,6 +8,20 @@
 import '../bootstrap';
 import '../plugins';
 import Vue from 'vue';
+import ImageLoader from './components/ImageLoader'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(
+    Vuetify, {
+      theme: {
+        secondary: '#0e71a3',
+        primary: '#52c2b8',
+        accent: '#e95e29'
+      }
+    }
+  )
+
 
 window.Vue = Vue;
 
@@ -19,7 +33,7 @@ window.Vue = Vue;
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
 
@@ -34,5 +48,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
  */
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    components: { ImageLoader }
 });

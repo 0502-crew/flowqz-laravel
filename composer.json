@@ -21,7 +21,12 @@
         "spatie/laravel-html": "^2.4",
         "spatie/laravel-permission": "^2.5",
         "torann/geoip": "^1.0",
-        "webpatser/laravel-uuid": "^3.0"
+        "webpatser/laravel-uuid": "^3.0",
+        "infyomlabs/laravel-generator": "5.7.x-dev",
+        "laravelcollective/html": "^5.7.0",
+        "infyomlabs/adminlte-templates": "5.7.x-dev",
+        "doctrine/dbal": "~2.3"
+
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

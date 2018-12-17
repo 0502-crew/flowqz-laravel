@@ -13,6 +13,11 @@
                     {!! __('strings.backend.welcome') !!}
                 </div><!--card-body-->
             </div><!--card-->
+            <label class="switch switch-pill switch-primary">
+                    <input type="checkbox" class="switch-input" checked>
+                    <span class="switch-slider"></span>
+                  </label>
+
         </div><!--col-->
     </div><!--row-->
 @endsection

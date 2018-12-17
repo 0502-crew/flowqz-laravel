@@ -108,7 +108,7 @@
 </section>
     <div class="row mb-4">
         <div class="col">
-            {{-- <example-component></example-component> --}}
+             <image-loader></image-loader>
         </div><!--col-->
     </div><!--row-->
 @endsection

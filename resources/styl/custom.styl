@@ -1,11 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,900');
 
 primary-color     = #277aaf;
+primary-color-v   = #379acf;
 secondary-color   = #d0bb57;
 darkgrey          = #272727;
 grey              = #91949a;
 lightgrey         = #f1f4fa;
 
+font-logo         = "M PLUS Rounded 1c", sans-serif;
+
+
+.card-header
+    background-color: primary-color;
+    color: lightgrey;
+.card
+    background-color: lightgrey;
+    color: darkgrey;
+    button
+        background-color: primary-color;
+        border-color: primary-color;
+    button:hover
+        background-color: primary-color-v;
+        border-color: primary-color;
+.header-logo-nav
+    font-size: 1.2em;
+    font-family: font-logo;
+    font-weight: 900;
+    text-shadow: 2px 2px 0px #fff, 4px 4px 0px #eee;
+    text-decoration: none !important;
+    text-align: center;
+    padding-left: 10px
+    +above(575px)
+        font-size: 1.55em
+.first-logo
+    color: primary-color
+.second-logo
+    color: secondary-color
 
 .popular {
     .popular-title {

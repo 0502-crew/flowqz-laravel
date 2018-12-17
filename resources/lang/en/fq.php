@@ -14,5 +14,8 @@ return [
         'share'   => 'Share your results',
         'sharedesc' => 'You can easily share your results on socialmedia.',
     ],
+    'back' => [
+        'create'   => 'New FlowQuiz',
+    ]
 
 ];

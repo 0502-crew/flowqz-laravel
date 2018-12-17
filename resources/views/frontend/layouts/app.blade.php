@@ -35,7 +35,7 @@
         </div><!-- #app -->
         <section class="footer">
             <div class="footer-container">&copy; @php echo date("Y");@endphp FlowQuiz</div>
-            </section>
+        </section>
 
         <!-- Scripts -->
         @stack('before-scripts')

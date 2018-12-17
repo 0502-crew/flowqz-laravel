@@ -19,6 +19,7 @@
     <!-- Check if the language is set to RTL, so apply the RTL layouts -->
     <!-- Otherwise apply the normal LTR layouts -->
     {{ style(mix('css/backend.css')) }}
+    {{ style(mix('css/custom.css')) }}
 
     @stack('after-styles')
 </head>
@@ -31,7 +32,7 @@
 
         <main class="main">
             @include('includes.partials.logged-in-as')
-            {!! Breadcrumbs::render() !!}
+            {{-- {!! Breadcrumbs::render() !!} --}}
 
             <div class="container-fluid">
                 <div class="animated fadeIn">

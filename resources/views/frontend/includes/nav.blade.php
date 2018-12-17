@@ -3,7 +3,11 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="@lang('labels.general.toggle_navigation')">
         <span class="navbar-toggler-icon"></span>
     </button>
-
+    @if(Route::current()->getName() != 'frontend.index')
+    <div class="justify-content-start">
+        <a href="{{ route('frontend.index') }}" class="header-logo-nav"><span class="first-logo">Flow</span><span class="second-logo">Quiz</span></a>
+    </div>
+    @endif
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
             @if(config('locale.status') && count(config('locale.languages')) > 1)

@@ -1,4 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,900);.popular .popular-title {
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,900);.card-header {
+  background-color: #277aaf;
+  color: #f1f4fa;
+}
+.card {
+  background-color: #f1f4fa;
+  color: #272727;
+}
+.card button {
+  background-color: #277aaf;
+  border-color: #277aaf;
+}
+.card button:hover {
+  background-color: #379acf;
+  border-color: #277aaf;
+}
+.header-logo-nav {
+  font-size: 1.2em;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  text-shadow: 2px 2px 0px #fff, 4px 4px 0px #eee;
+  text-decoration: none !important;
+  text-align: center;
+  padding-left: 10px;
+}
+@media only screen and (min-width: 575px) {
+  .header-logo-nav {
+    font-size: 1.55em;
+  }
+}
+.first-logo {
+  color: #277aaf;
+}
+.second-logo {
+  color: #d0bb57;
+}
+.popular .popular-title {
   font-size: 1.6em;
 }
 .popular .cards {
