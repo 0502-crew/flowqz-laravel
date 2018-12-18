@@ -106,9 +106,7 @@
         </div>
     </div>
 </section>
-    <div class="row mb-4">
-        <div class="col">
-             <image-loader></image-loader>
-        </div><!--col-->
-    </div><!--row-->
+<section>
+    @include('frontend.includes.we')
+</section>
 @endsection

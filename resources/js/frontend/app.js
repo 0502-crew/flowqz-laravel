@@ -9,18 +9,6 @@ import '../bootstrap';
 import '../plugins';
 import Vue from 'vue';
 import ImageLoader from './components/ImageLoader'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
-
-Vue.use(
-    Vuetify, {
-      theme: {
-        secondary: '#0e71a3',
-        primary: '#52c2b8',
-        accent: '#e95e29'
-      }
-    }
-  )
 
 
 window.Vue = Vue;

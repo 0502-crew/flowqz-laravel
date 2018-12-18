@@ -32,10 +32,12 @@
                 @include('includes.partials.messages')
                 @yield('content')
             </div><!-- container -->
+
+            <div class="footer">
+                @include('frontend.includes.footer')
+            </div>
+
         </div><!-- #app -->
-        <section class="footer">
-            <div class="footer-container">&copy; @php echo date("Y");@endphp FlowQuiz</div>
-        </section>
 
         <!-- Scripts -->
         @stack('before-scripts')

@@ -3,13 +3,15 @@
 primary-color     = #277aaf;
 primary-color-v   = #379acf;
 secondary-color   = #d0bb57;
+secondary-color-v   = #e0db77;
 darkgrey          = #272727;
 grey              = #91949a;
 lightgrey         = #f1f4fa;
 
 font-logo         = "M PLUS Rounded 1c", sans-serif;
 
-
+.container
+    padding-bottom 25px
 .card-header
     background-color: primary-color;
     color: lightgrey;
@@ -128,12 +130,41 @@ font-logo         = "M PLUS Rounded 1c", sans-serif;
         background: primary-color;
     }
 }
+.we
+    align-content: center
+    .we-title
+        font-weight 700
+        font-size 2rem
+    img
+        width 200px
+        height 200px
+        object-fit cover
+        border-radius: 50%;
+        border 20px solid primary-color
+    .team
+        display flex
+        justify-content space-evenly
+        .coder
+            justify-content center
+            align-content: center
+            padding 20px
 
 .footer
     .footer-container
-        height: 80px
-        background-color: lightgrey
-        width: 100%
+        background-color darkgrey
+        width 100%
         display: flex
         justify-content space-around
         vertical-align middle
+        color lightgrey
+        border-top 2px solid grey
+        min-height 120px
+        padding 20px 40px
+        a
+            color secondary-color
+            &:hover
+                color: secondary-color-v
+        .social-icon
+            display inline-block
+            padding 5px
+            font-size 2rem
