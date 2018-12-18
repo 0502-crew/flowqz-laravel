@@ -47,6 +47,15 @@ class UserTableSeeder extends Seeder
             'confirmed'         => true,
         ]);
 
+        User::create([
+            'first_name'        => 'Default',
+            'last_name'         => 'User',
+            'email'             => 'joseic@gmail.com',
+            'password'          => 'secret',
+            'confirmation_code' => md5(uniqid(mt_rand(), true)),
+            'confirmed'         => true,
+        ]);
+
         $this->enableForeignKeys();
     }
 }
