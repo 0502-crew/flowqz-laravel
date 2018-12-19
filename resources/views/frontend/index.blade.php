@@ -106,7 +106,7 @@
         </div>
     </div>
 </section>
-<section class="we pt-3">
+<section class="we pt-4">
     @include('frontend.includes.we')
 </section>
 @endsection
