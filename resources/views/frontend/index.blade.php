@@ -15,7 +15,7 @@
 </div>
 
 
-<section class="fqcards">
+<section class="fqcards mb-2">
     <div class="container">
         <div class="row mbr-justify-content-center">
             <div class="col-lg-6 mbr-col-md-10">
@@ -66,9 +66,9 @@
         </div>
     </div>
 </section>
-<section class="popular">
+<section class="popular mb-2">
     <div class="container">
-        <div class="popular-title mb-2">@lang('fq.mostpopular')</div>
+        <div class="txt-header mb-2">@lang('fq.mostpopular')</div>
         <div class="cards">
             <div class="card">
                 <div class="image">
@@ -106,7 +106,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="we pt-3">
     @include('frontend.includes.we')
 </section>
 @endsection
