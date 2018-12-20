@@ -10,7 +10,7 @@
                 <li>Contact us</li>
             </ul>
         </div>
-        <div class="flexized col-lg-4  col-sm-6 col-12">
+        <div class="flexized col-lg-4  col-sm-12">
             &copy; @php echo date("Y");@endphp FlowQuiz
         </div>
         <div class="flexized col-lg-4  col-sm-6 col-12">

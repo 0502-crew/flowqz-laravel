@@ -1,5 +1,5 @@
 <div class="we-container">
-    <div class="txt-header mb-2">Meet the team!</div>
+    <div class="txt-header mb-1">Meet the team!</div>
     <div class="team">
         <div class="coder">
             <img src="img/frontend/joseic.png" alt="">

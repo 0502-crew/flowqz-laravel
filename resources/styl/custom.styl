@@ -166,6 +166,11 @@ body
                font-weight: normal
                font-size: 0.9rem
                padding: 10px
+               +above(mobile)
+                    padding: 10px 20px
+               +above(tablet)
+                    padding: 10px 40px
+
 .footer
     position absolute
     bottom 0
@@ -187,8 +192,10 @@ body
             display inline-block
             padding 5px
             font-size 2rem
+        +below(desktop)
+            .flexized:nth-of-type(2)
+                order 3
 .flexized
     display: flex
-    justify-content: center
     align-items: center
     flex-direction: column
